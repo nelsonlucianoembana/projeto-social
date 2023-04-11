@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+    
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar /*Isso é para esconder a barra de rolagem (sua atura e largura)*/{
+    width: 0px;
+    height: 0px;
+}
+img{
+    width: 100vw;
+}
+a{
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    color: rgb(30, 94, 212);
+    background-color: rgb(74, 192, 153);
+}
